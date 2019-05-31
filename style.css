@@ -9,7 +9,7 @@ body{
 
 	height: 100
 	background:linear-
-	gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)),url(memu101.png);
+	gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)),url(img/pro1.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -75,7 +75,7 @@ body{
 }
 
 .navbar{
-	background-color: #000;
+	background-color: #022140;
 } 
 
 .nav-bar .fa-bars{
@@ -291,7 +291,7 @@ body{
 	padding-top: 6px;
 	margin-top: 5px;
 	color: #fff;
-	background: #000;
+	background: #022140;
 
 }
 
@@ -299,4 +299,133 @@ body{
 	padding-left: 30px;
 	width: 80px;
 	transition: 1s;
+}
+
+
+/*----------------------------------------------------------*/
+a{
+	text-decoration: none;
+	outline: none;
+
+}
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #022140;
+	padding: 20px 0px;
+}
+.footer-social{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.footer-social ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-social ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #1E4258;
+}
+.footer-social ul li a{
+	color: #272727;
+	font-size: 25px;
+	display: block;
+}
+.footer-social ul li a i{
+	line-height: 50px;
+}
+.footer-social ul li:hover{
+	background: #2D5F5D;
+}
+.footer-social ul li:hover a{
+	color: #fff;
+}
+
+
+.footer-menu{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+}
+.footer-menu ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu ul li{
+	display: inline-block;
+	margin: 0px 13px;
+}
+.footer-menu ul li a{
+	font-family: arial;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.footer-menu ul li a:hover{
+	color: #2D5F5D;
+}
+
+
+
+.footer-menu1{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+.footer-menu1 ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu1 ul li{
+	display: inline-block;
+	margin: 0px 13px;
+}
+.footer-menu1 ul li a{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.footer-menu1 ul li a:hover{
+	color: #2D5F5D;
+}
+
+
+
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #265077;
+	padding: 5px;
+}
+.footer-bottom{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.footer-bottom p a{
+	color: #fff;
+}
+.footer-bottom p a:hover{
+	color: #2D5F5D;
 }
